@@ -1,0 +1,62 @@
+.section-title h2 {
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #1fc667;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  margin-bottom: 30px;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+  z-index: 999;
+}
+
+.profile-box {
+  background-size: cover;
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-box img {
+  width: 170px;
+  height: 170px;
+  position: relative;
+  border: 5px solid #fff;
+}
+
+.social-box i {
+  color: #74cf9b;
+  font-size: 20px;
+  
+}
+
+.social-box i:hover {
+  color: #1fc667;
+}
+
+.social-box a {
+  margin: 10px;
+}

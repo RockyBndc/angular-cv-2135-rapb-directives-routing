@@ -1,0 +1,55 @@
+/*HEADER*/
+.header {
+  background-color: #f0f6ec;
+}
+
+/*NAVBAR*/
+/* Color of the links BEFORE scroll */
+#navbarsExample07 .nav-link {
+  color: #74cf9b;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #1fc667;
+}
+
+/* Color of the navbar AFTER scroll */
+#navbarsExample07 .nav-link:hover {
+  color: #077738;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+/*HERO SECTION*/
+.hero .row {
+  margin-top: 50px;
+}
+
+.hero .intro {
+  color: #1fc667;
+  font-weight: 400;
+}
+
+.hero .btn {
+  font-size: 18px;
+  margin-top: 50px;
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: #1fc667;
+  border: 0px;
+}
+
+.hero .btn:hover {
+  -webkit-transform: scale(1.1);
+  background: #1fc667;
+}
