@@ -16,18 +16,9 @@
             <h6>2020 - Present (3rd year)</h6>
             <p><em>Holy Angel University</em></p>
             <ul>
-              <li>President's Lister 1st Semester (2022-2023)</li>
-              <li>
-                Cisco Networking Academy - Introduction to Packet Tracer
-                Certificate
+              <li *ngFor="let item of achievements1">
+                {{ item }}
               </li>
-              <li>President's Lister 1st & 2nd Semester (2021-2022)</li>
-              <li>Dean's Lister 2nd Semester (2020-2021)</li>
-              <li>
-                Cisco Networking Academy - Introduction to Cybersecurity
-                Certificate
-              </li>
-              <li>President's Lister 1st Semester (2020-2021)</li>
             </ul>
           </div>
 
@@ -45,11 +36,9 @@
             <h6>2014 - 2018</h6>
             <p><em>Don Antoñio Lee Chi Uan Integrated School</em></p>
             <ul>
-              <li>With Honors (2017-2018)</li>
-              <li>Journalist of the Year (2017-2018)</li>
-              <li>1st Place Photojournalism CSPC (2017-2018)</li>
-              <li>6th Place Photojournalism CSPC (2016-2017)</li>
-              <li>With Honors (2016-2017)</li>
+              <li *ngFor="let item of achievements2">
+                {{ item }}
+              </li>
             </ul>
           </div>
         </div>
