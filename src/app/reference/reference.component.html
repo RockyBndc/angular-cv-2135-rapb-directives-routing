@@ -70,4 +70,22 @@
       </div>
     </div>
   </div>
+
+  <br /><br />
+
+  <div class="additionalRef">
+    <div>
+      <h5 class="text-center">Additional Reference</h5>
+    </div>
+    <br />
+    <div class="table col-12">
+      <table class="col-12 table-bordered">
+        <tr *ngFor="let item of addReference">
+          <td>{{ item.name }}</td>
+          <td>{{ item.connection }}</td>
+          <td>{{ item.email }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
 </div>
