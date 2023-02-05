@@ -17,7 +17,6 @@
   bottom: 0;
 }
 
-
 .gradient-brand-color {
   background-image: linear-gradient(
     to right,
@@ -30,8 +29,8 @@
   color: #fff;
 }
 
-.contact__wrapper{
-  margin-top: 50px;
+.contact__wrapper {
+  margin-top: 35px;
 }
 .contact-info__list span.position-absolute {
   left: 0;
@@ -43,5 +42,3 @@
 .social .nav-link:hover {
   color: #077738;
 }
-
-

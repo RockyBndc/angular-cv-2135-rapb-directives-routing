@@ -30,26 +30,3 @@
   font-size: 1.75rem;
   letter-spacing: 3px;
 }
-
-/*HERO SECTION*/
-.hero .row {
-  margin-top: 50px;
-}
-
-.hero .intro {
-  color: #1fc667;
-  font-weight: 400;
-}
-
-.hero .btn {
-  font-size: 18px;
-  margin-top: 50px;
-  -webkit-transition: all 0.3s ease-in-out;
-  background-color: #1fc667;
-  border: 0px;
-}
-
-.hero .btn:hover {
-  -webkit-transform: scale(1.1);
-  background: #1fc667;
-}

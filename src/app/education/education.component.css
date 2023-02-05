@@ -6,7 +6,6 @@
   font-size: 26px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
   padding-bottom: 10px;
   position: relative;
 }
@@ -22,8 +21,7 @@
   left: calc(50% - 25px);
 }
 
-
-.education .education-content{
+.education .education-content {
   margin-top: 30px;
 }
 
@@ -76,4 +74,3 @@
   background: #fff;
   border: 2px solid #2c9463;
 }
-
